@@ -1,0 +1,1208 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: analyse.rsamount
+msgid "amount"
+msgstr ""
+
+#: analyse.rsdone
+msgctxt "analyse.rsdone"
+msgid "Done."
+msgstr ""
+
+#: analyse.rserrorwhilereadfromfiles
+msgctxt "analyse.rserrorwhilereadfromfiles"
+msgid "Error while read from file \"%s\""
+msgstr ""
+
+#: analyse.rsextension
+msgid "extension"
+msgstr ""
+
+#: analyse.rsfile
+msgctxt "analyse.rsfile"
+msgid "File: "
+msgstr ""
+
+#: analyse.rsfilename
+msgctxt "analyse.rsfilename"
+msgid "filename"
+msgstr ""
+
+#: analyse.rslines
+msgid "lines"
+msgstr ""
+
+#: analyse.rssearchingfiles
+msgctxt "analyse.rssearchingfiles"
+msgid "Searching files..."
+msgstr ""
+
+#: analyse.rssize
+msgid "size"
+msgstr ""
+
+#: analyse.rstimeelapsed
+msgctxt "analyse.rstimeelapsed"
+msgid "Time elapsed: "
+msgstr ""
+
+#: analyse.rstotal
+msgid "total"
+msgstr ""
+
+#: analyse.rsunabletoopenfiles
+msgctxt "analyse.rsunabletoopenfiles"
+msgid "Unable to open file \"%s\""
+msgstr ""
+
+#: filehash.rsdone
+msgctxt "filehash.rsdone"
+msgid "Done."
+msgstr ""
+
+#: filehash.rserror
+msgctxt "filehash.rserror"
+msgid "Error: "
+msgstr ""
+
+#: filehash.rsfile
+msgctxt "filehash.rsfile"
+msgid "File: "
+msgstr ""
+
+#: filehash.rsfileerror
+msgctxt "filehash.rsfileerror"
+msgid "File handling error."
+msgstr ""
+
+#: filehash.rsnotcomputed
+msgid "Not computed, zero byte file"
+msgstr ""
+
+#: filehash.rssearchingfiles
+msgctxt "filehash.rssearchingfiles"
+msgid "Searching files..."
+msgstr ""
+
+#: filehash.rsselectleastonealgorithm
+msgctxt "filehash.rsselectleastonealgorithm"
+msgid "Please select at least one algorithm."
+msgstr ""
+
+#: filehash.rsselectordragtohash
+msgid ""
+"Select or drag files here to hash.\n"
+"Computed hash will appear here...\n"
+msgstr ""
+
+#: filehash.rstimeelapsed
+msgctxt "filehash.rstimeelapsed"
+msgid "Time elapsed: "
+msgstr ""
+
+#: filemerge.rsdone
+msgctxt "filemerge.rsdone"
+msgid "Done"
+msgstr ""
+
+#: filemerge.rserrorwhilewritetofiles
+msgctxt "filemerge.rserrorwhilewritetofiles"
+msgid "Error while write to file \"%s\""
+msgstr ""
+
+#: filemerge.rsfilealreadlyexists
+msgctxt "filemerge.rsfilealreadlyexists"
+msgid "File alreadly exists"
+msgstr ""
+
+#: filemerge.rsfilenamenotvalid
+msgid "File name not valid"
+msgstr ""
+
+#: filemerge.rsfilescannotread
+msgid "File \"%s\" can't read"
+msgstr ""
+
+#: filemerge.rsoutputdirectorycannotwrite
+msgctxt "filemerge.rsoutputdirectorycannotwrite"
+msgid "Output directory can't write"
+msgstr ""
+
+#: filemerge.rsprogress
+msgctxt "filemerge.rsprogress"
+msgid "Progress: "
+msgstr ""
+
+#: filemerge.rsunabletocreatefiles
+msgctxt "filemerge.rsunabletocreatefiles"
+msgid "Unable to create file \"%s\""
+msgstr ""
+
+#: filemerge.rsunabletoopenfiles
+msgctxt "filemerge.rsunabletoopenfiles"
+msgid "Unable to open file \"%s\""
+msgstr ""
+
+#: filesplit.rsbytes
+msgctxt "filesplit.rsbytes"
+msgid "Bytes"
+msgstr ""
+
+#: filesplit.rscolon
+msgctxt "filesplit.rscolon"
+msgid ": "
+msgstr ""
+
+#: filesplit.rscomma
+msgid ", "
+msgstr ""
+
+#: filesplit.rsdone
+msgid "Done. "
+msgstr ""
+
+#: filesplit.rserror
+msgctxt "filesplit.rserror"
+msgid "Error: "
+msgstr ""
+
+#: filesplit.rserrorwhilereadfromfiles
+msgctxt "filesplit.rserrorwhilereadfromfiles"
+msgid "Error while read from file \"%s\""
+msgstr ""
+
+#: filesplit.rserrorwhilewritetofiles
+msgctxt "filesplit.rserrorwhilewritetofiles"
+msgid "Error while write to file \"%s\""
+msgstr ""
+
+#: filesplit.rsfilealreadlyexists
+msgctxt "filesplit.rsfilealreadlyexists"
+msgid "File alreadly exists"
+msgstr ""
+
+#: filesplit.rsfilecannotread
+msgid "File can't read"
+msgstr ""
+
+#: filesplit.rsfilenotexists
+msgid "File not exists"
+msgstr ""
+
+#: filesplit.rsfilesizeless2
+msgid "File size < 2"
+msgstr ""
+
+#: filesplit.rsloadingfile
+msgid "Loading file..."
+msgstr ""
+
+#: filesplit.rsoutputdirectorycannotwrite
+msgctxt "filesplit.rsoutputdirectorycannotwrite"
+msgid "Output directory can't write"
+msgstr ""
+
+#: filesplit.rsparts
+msgid "parts"
+msgstr ""
+
+#: filesplit.rsprogress
+msgctxt "filesplit.rsprogress"
+msgid "Progress: "
+msgstr ""
+
+#: filesplit.rssize
+msgid "Size: "
+msgstr ""
+
+#: filesplit.rssplitedtodparts
+msgid "Splited to %d parts. "
+msgstr ""
+
+#: filesplit.rstimeelapsed
+msgctxt "filesplit.rstimeelapsed"
+msgid "Time elapsed: "
+msgstr ""
+
+#: filesplit.rsunabletocreatefiles
+msgctxt "filesplit.rsunabletocreatefiles"
+msgid "Unable to create file \"%s\""
+msgstr ""
+
+#: filesplit.rsunabletoopenfiles
+msgctxt "filesplit.rsunabletoopenfiles"
+msgid "Unable to open file \"%s\""
+msgstr ""
+
+#: scanner.rsclearresultstartnewscan
+msgid "Clear the result and start a new scan?"
+msgstr ""
+
+#: scanner.rscolon
+msgctxt "scanner.rscolon"
+msgid ": "
+msgstr ""
+
+#: scanner.rsconfirmation
+msgid "Confirmation"
+msgstr ""
+
+#: scanner.rscopydone
+msgid "Copy done: "
+msgstr ""
+
+#: scanner.rscopying
+msgid "Copying: "
+msgstr ""
+
+#: scanner.rscopyselectedfilesto
+msgid "Copy selected files to"
+msgstr ""
+
+#: scanner.rsdeletescript
+msgid "Delete current script? This cannot be undone."
+msgstr ""
+
+#: scanner.rsdeleteselectedfiles
+msgid "Delete selected files? This cannot be undone."
+msgstr ""
+
+#: scanner.rsdirectorynotexists
+msgid "Directory not exists."
+msgstr ""
+
+#: scanner.rserror
+msgctxt "scanner.rserror"
+msgid "Error"
+msgstr ""
+
+#: scanner.rsfile
+msgid "file"
+msgstr ""
+
+#: scanner.rsfilesprocessed
+msgid " files processed, "
+msgstr ""
+
+#: scanner.rsfounddfiles
+msgid "found %d files. "
+msgstr ""
+
+#: scanner.rsinfo
+msgid "info"
+msgstr ""
+
+#: scanner.rsmovedone
+msgid "Move done: "
+msgstr ""
+
+#: scanner.rsmoveselectedfilesto
+msgid "Move selected files to"
+msgstr ""
+
+#: scanner.rsmoving
+msgid "Moving: "
+msgstr ""
+
+#: scanner.rsnoname
+msgid "(No Name)"
+msgstr ""
+
+#: scanner.rsscanedddirsdfiles
+msgid "Done: %d dirs, %d files scaned, "
+msgstr ""
+
+#: scanner.rsscaningddirsddfiles
+msgid "Scaning: %d dirs, %d/%d files scaned, "
+msgstr ""
+
+#: scanner.rsscriptcompilesuccess
+msgid "Script compile success"
+msgstr ""
+
+#: scanner.rsscripterror
+msgid "Script error"
+msgstr ""
+
+#: scanner.rssexistsoverwrite
+msgid "%s exists, overwrite? This cannot be undone."
+msgstr ""
+
+#: scanner.rsstandbyready
+msgctxt "scanner.rsstandbyready"
+msgid "Stand by ready"
+msgstr ""
+
+#: scanner.rstimeelapsed
+msgctxt "scanner.rstimeelapsed"
+msgid "Time elapsed: "
+msgstr ""
+
+#: texthash.rsawaitinginput
+msgid "Awaiting input in text field..."
+msgstr ""
+
+#: texthash.rsfileerror
+msgctxt "texthash.rsfileerror"
+msgid "File handling error."
+msgstr ""
+
+#: texthash.rsselectleastonealgorithm
+msgctxt "texthash.rsselectleastonealgorithm"
+msgid "Please select at least one algorithm."
+msgstr ""
+
+#: texthash.rsstandbyready
+msgctxt "texthash.rsstandbyready"
+msgid "Stand by ready"
+msgstr ""
+
+#: texthash.rstypeorpastetohash
+msgid ""
+"Type or paste text here.\n"
+"Hash will update automatically.\n"
+msgstr ""
+
+#: tformanalyse.btnclear.caption
+msgctxt "TFORMANALYSE.BTNCLEAR.CAPTION"
+msgid "Clear"
+msgstr ""
+
+#: tformanalyse.btncopylist.caption
+msgctxt "TFORMANALYSE.BTNCOPYLIST.CAPTION"
+msgid "Copy list"
+msgstr ""
+
+#: tformanalyse.btnsavelist.caption
+msgctxt "TFORMANALYSE.BTNSAVELIST.CAPTION"
+msgid "Save list"
+msgstr ""
+
+#: tformanalyse.btnselect.caption
+msgctxt "TFORMANALYSE.BTNSELECT.CAPTION"
+msgid "Select File"
+msgstr ""
+
+#: tformanalyse.btnselectdir.caption
+msgid "Select Directory"
+msgstr ""
+
+#: tformanalyse.checkboxfilter.caption
+msgid "Filter: "
+msgstr ""
+
+#: tformanalyse.editfilter.text
+msgid "*.txt;*.md;*.h;*.inc;*.asm;*.bas;*.c;*.cpp;*.cs;*.java;*.pas;*.xml;*.html;*.htm;*.js;*.css;*.php;"
+msgstr ""
+
+#: tformanalyse.label1.caption
+msgid "Sort by: "
+msgstr ""
+
+#: tformanalyse.labelprogress.caption
+msgctxt "TFORMANALYSE.LABELPROGRESS.CAPTION"
+msgid "Stand by ready"
+msgstr ""
+
+#: tformanalyse.opendialog1.title
+msgctxt "TFORMANALYSE.OPENDIALOG1.TITLE"
+msgid "Select File"
+msgstr ""
+
+#: tformanalyse.savedialog1.title
+msgctxt "TFORMANALYSE.SAVEDIALOG1.TITLE"
+msgid "Save File"
+msgstr ""
+
+#: tformfilehash.btnclear.caption
+msgid "Clear Hash"
+msgstr ""
+
+#: tformfilehash.btncopy.caption
+msgctxt "TFORMFILEHASH.BTNCOPY.CAPTION"
+msgid "Copy Hash"
+msgstr ""
+
+#: tformfilehash.btnsave.caption
+msgctxt "TFORMFILEHASH.BTNSAVE.CAPTION"
+msgid "Save Hash"
+msgstr ""
+
+#: tformfilehash.btnselectfile.caption
+msgctxt "tformfilehash.btnselectfile.caption"
+msgid "Select File"
+msgstr ""
+
+#: tformfilehash.checkbox1.caption
+msgid "Table mode"
+msgstr ""
+
+#: tformfilehash.checkgroup1.caption
+msgctxt "TFORMFILEHASH.CHECKGROUP1.CAPTION"
+msgid "Algorithm"
+msgstr ""
+
+#: tformfilehash.labelprogress.caption
+msgctxt "tformfilehash.labelprogress.caption"
+msgid "Stand by ready"
+msgstr ""
+
+#: tformfilehash.menuitemclear.caption
+msgctxt "tformfilehash.menuitemclear.caption"
+msgid "Clear"
+msgstr ""
+
+#: tformfilehash.menuitemcopy.caption
+msgctxt "tformfilehash.menuitemcopy.caption"
+msgid "Copy"
+msgstr ""
+
+#: tformfilehash.menuitemcut.caption
+msgid "Cut"
+msgstr ""
+
+#: tformfilehash.menuitemdelete.caption
+msgctxt "tformfilehash.menuitemdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tformfilehash.menuitempaste.caption
+msgid "Paste"
+msgstr ""
+
+#: tformfilehash.menuitemredo.caption
+msgid "Redo"
+msgstr ""
+
+#: tformfilehash.menuitemselectall.caption
+msgid "SelectAll"
+msgstr ""
+
+#: tformfilehash.menuitemseparator1.caption
+msgctxt "tformfilehash.menuitemseparator1.caption"
+msgid "-"
+msgstr ""
+
+#: tformfilehash.menuitemseparator2.caption
+msgctxt "TFORMFILEHASH.MENUITEMSEPARATOR2.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tformfilehash.menuitemundo.caption
+msgid "Undo"
+msgstr ""
+
+#: tformfilehash.opendialog1.title
+msgctxt "TFORMFILEHASH.OPENDIALOG1.TITLE"
+msgid "Select File"
+msgstr ""
+
+#: tformfilehash.savedialog1.title
+msgctxt "TFORMFILEHASH.SAVEDIALOG1.TITLE"
+msgid "Save File"
+msgstr ""
+
+#: tformfilemerge.btnselectdirectory.caption
+msgctxt "TFORMFILEMERGE.BTNSELECTDIRECTORY.CAPTION"
+msgid "..."
+msgstr ""
+
+#: tformfilemerge.buttonadd.caption
+msgctxt "tformfilemerge.buttonadd.caption"
+msgid "Add"
+msgstr ""
+
+#: tformfilemerge.buttonclear.caption
+msgctxt "TFORMFILEMERGE.BUTTONCLEAR.CAPTION"
+msgid "Clear"
+msgstr ""
+
+#: tformfilemerge.buttondel.caption
+msgctxt "tformfilemerge.buttondel.caption"
+msgid "Del"
+msgstr ""
+
+#: tformfilemerge.buttondown.caption
+msgid "Down"
+msgstr ""
+
+#: tformfilemerge.buttonmerge.caption
+msgid "Merge"
+msgstr ""
+
+#: tformfilemerge.buttonsort.caption
+msgid "Sort"
+msgstr ""
+
+#: tformfilemerge.buttonup.caption
+msgid "Up"
+msgstr ""
+
+#: tformfilemerge.cboverwrite.caption
+msgctxt "TFORMFILEMERGE.CBOVERWRITE.CAPTION"
+msgid "Overwrite existing files"
+msgstr ""
+
+#: tformfilemerge.cbusesourcedirectory.caption
+msgctxt "TFORMFILEMERGE.CBUSESOURCEDIRECTORY.CAPTION"
+msgid "Use source directory"
+msgstr ""
+
+#: tformfilemerge.label1.caption
+msgid "Output filename: "
+msgstr ""
+
+#: tformfilemerge.label2.caption
+msgctxt "TFORMFILEMERGE.LABEL2.CAPTION"
+msgid "Output directory: "
+msgstr ""
+
+#: tformfilemerge.label3.caption
+msgid "Source files: "
+msgstr ""
+
+#: tformfilemerge.labelprogress.caption
+msgctxt "TFORMFILEMERGE.LABELPROGRESS.CAPTION"
+msgid "Stand by ready"
+msgstr ""
+
+#: tformfilemerge.opendialog1.title
+msgctxt "TFORMFILEMERGE.OPENDIALOG1.TITLE"
+msgid "Select File"
+msgstr ""
+
+#: tformfilesplit.btnselectdirectory.caption
+msgctxt "TFORMFILESPLIT.BTNSELECTDIRECTORY.CAPTION"
+msgid "..."
+msgstr ""
+
+#: tformfilesplit.btnselectfile.caption
+msgctxt "tformfilesplit.btnselectfile.caption"
+msgid "..."
+msgstr ""
+
+#: tformfilesplit.buttonstart.caption
+msgid "Start"
+msgstr ""
+
+#: tformfilesplit.cbhex.caption
+msgid "Hex"
+msgstr ""
+
+#: tformfilesplit.cbmergescript.caption
+msgid "Generate merge script"
+msgstr ""
+
+#: tformfilesplit.cbonlykeep.caption
+msgid "Only keep"
+msgstr ""
+
+#: tformfilesplit.cboverwrite.caption
+msgctxt "tformfilesplit.cboverwrite.caption"
+msgid "Overwrite existing files"
+msgstr ""
+
+#: tformfilesplit.cbusesourcedirectory.caption
+msgctxt "tformfilesplit.cbusesourcedirectory.caption"
+msgid "Use source directory"
+msgstr ""
+
+#: tformfilesplit.editbytes.text
+msgid "2048"
+msgstr ""
+
+#: tformfilesplit.editcharacters.text
+msgid "10000"
+msgstr ""
+
+#: tformfilesplit.editonlykeep.text
+msgid "1-3, 5, 7, 9"
+msgstr ""
+
+#: tformfilesplit.editparts.text
+msgid "2"
+msgstr ""
+
+#: tformfilesplit.editrows.text
+msgid "100"
+msgstr ""
+
+#: tformfilesplit.editseparatorafter.text
+msgctxt "tformfilesplit.editseparatorafter.text"
+msgid "0D 0A"
+msgstr ""
+
+#: tformfilesplit.editseparatorbefore.text
+msgctxt "TFORMFILESPLIT.EDITSEPARATORBEFORE.TEXT"
+msgid "0D 0A"
+msgstr ""
+
+#: tformfilesplit.labelafter.caption
+msgid "After: "
+msgstr ""
+
+#: tformfilesplit.labelbefore.caption
+msgid "Before: "
+msgstr ""
+
+#: tformfilesplit.labelbytes.caption
+msgctxt "tformfilesplit.labelbytes.caption"
+msgid "Bytes"
+msgstr ""
+
+#: tformfilesplit.labelcharacters.caption
+msgid "Characters     (counting full rows)"
+msgstr ""
+
+#: tformfilesplit.labelothers.caption
+msgid "Others: "
+msgstr ""
+
+#: tformfilesplit.labeloutputdirectory.caption
+msgctxt "tformfilesplit.labeloutputdirectory.caption"
+msgid "Output directory: "
+msgstr ""
+
+#: tformfilesplit.labelpart.caption
+msgid "Part"
+msgstr ""
+
+#: tformfilesplit.labelparts.caption
+msgid "Parts"
+msgstr ""
+
+#: tformfilesplit.labelprogress.caption
+msgctxt "TFORMFILESPLIT.LABELPROGRESS.CAPTION"
+msgid "Stand by ready"
+msgstr ""
+
+#: tformfilesplit.labelrows.caption
+msgid "Rows"
+msgstr ""
+
+#: tformfilesplit.labelsize.caption
+msgid "Size: File not exists"
+msgstr ""
+
+#: tformfilesplit.labelsourcefile.caption
+msgid "Source file: "
+msgstr ""
+
+#: tformfilesplit.labelsplitemethod.caption
+msgid "Splite method: "
+msgstr ""
+
+#: tformfilesplit.opendialog1.title
+msgctxt "TFORMFILESPLIT.OPENDIALOG1.TITLE"
+msgid "Load File"
+msgstr ""
+
+#: tformfilesplit.rbbycharacters.caption
+msgid "By characters"
+msgstr ""
+
+#: tformfilesplit.rbbyparts.caption
+msgid "By parts"
+msgstr ""
+
+#: tformfilesplit.rbbyrows.caption
+msgid "By rows"
+msgstr ""
+
+#: tformfilesplit.rbbyseparator.caption
+msgid "By separator"
+msgstr ""
+
+#: tformfilesplit.rbbysize.caption
+msgid "By size"
+msgstr ""
+
+#: tformmain.labelstatus.caption
+msgid "Copyright © 2010-2017 Lamusia Project"
+msgstr ""
+
+#: tformmain.labeltitle.caption
+msgid "drdrHash"
+msgstr ""
+
+#: tformmain.labelwebsite.caption
+msgid "Website: "
+msgstr ""
+
+#: tformmain.labelwebsiteurl.caption
+msgid "https://github.com/lamusia/drdrHash"
+msgstr ""
+
+#: tformscanner.btneditrule.caption
+msgctxt "TFORMSCANNER.BTNEDITRULE.CAPTION"
+msgid "..."
+msgstr ""
+
+#: tformscanner.btnruleadd.caption
+msgctxt "TFORMSCANNER.BTNRULEADD.CAPTION"
+msgid "Add"
+msgstr ""
+
+#: tformscanner.btnruleapply.caption
+msgid "Apply"
+msgstr ""
+
+#: tformscanner.btnrulecompile.caption
+msgid "Compile"
+msgstr ""
+
+#: tformscanner.btnruledel.caption
+msgctxt "TFORMSCANNER.BTNRULEDEL.CAPTION"
+msgid "Del"
+msgstr ""
+
+#: tformscanner.btnscan.caption
+msgid "Scan"
+msgstr ""
+
+#: tformscanner.btnselectdirectory.caption
+msgctxt "TFORMSCANNER.BTNSELECTDIRECTORY.CAPTION"
+msgid "..."
+msgstr ""
+
+#: tformscanner.buttoncopy.caption
+msgctxt "TFORMSCANNER.BUTTONCOPY.CAPTION"
+msgid "Copy"
+msgstr ""
+
+#: tformscanner.buttoncopylist.caption
+msgctxt "TFORMSCANNER.BUTTONCOPYLIST.CAPTION"
+msgid "Copy list"
+msgstr ""
+
+#: tformscanner.buttondelete.caption
+msgctxt "TFORMSCANNER.BUTTONDELETE.CAPTION"
+msgid "Delete"
+msgstr ""
+
+#: tformscanner.buttondir.caption
+msgid "Open dir"
+msgstr ""
+
+#: tformscanner.buttonmove.caption
+msgid "Move"
+msgstr ""
+
+#: tformscanner.buttonopen.caption
+msgid "Open"
+msgstr ""
+
+#: tformscanner.buttonsavelist.caption
+msgctxt "TFORMSCANNER.BUTTONSAVELIST.CAPTION"
+msgid "Save list"
+msgstr ""
+
+#: tformscanner.buttonselall.caption
+msgid "Sel all"
+msgstr ""
+
+#: tformscanner.buttonselnone.caption
+msgid "Sel none"
+msgstr ""
+
+#: tformscanner.labeldirectory.caption
+msgctxt "tformscanner.labeldirectory.caption"
+msgid "Directory: "
+msgstr ""
+
+#: tformscanner.labeleditrule.caption
+msgid "Edit rules: "
+msgstr ""
+
+#: tformscanner.labelprogress.caption
+msgctxt "TFORMSCANNER.LABELPROGRESS.CAPTION"
+msgid "Stand by ready"
+msgstr ""
+
+#: tformscanner.labelrule.caption
+msgid "Rule: "
+msgstr ""
+
+#: tformscanner.savedialog1.title
+msgctxt "TFORMSCANNER.SAVEDIALOG1.TITLE"
+msgid "Save File"
+msgstr ""
+
+#: tformtexthash.btncleartext.caption
+msgid "Clear Text"
+msgstr ""
+
+#: tformtexthash.btncopyhash.caption
+msgctxt "tformtexthash.btncopyhash.caption"
+msgid "Copy Hash"
+msgstr ""
+
+#: tformtexthash.btnloadtext.caption
+msgid "Load Text"
+msgstr ""
+
+#: tformtexthash.btnsavehash.caption
+msgctxt "tformtexthash.btnsavehash.caption"
+msgid "Save Hash"
+msgstr ""
+
+#: tformtexthash.btnsavetext.caption
+msgid "Save Text"
+msgstr ""
+
+#: tformtexthash.checkgroup1.caption
+msgctxt "tformtexthash.checkgroup1.caption"
+msgid "Algorithm"
+msgstr ""
+
+#: tformtexthash.opendialog1.title
+msgctxt "tformtexthash.opendialog1.title"
+msgid "Load File"
+msgstr ""
+
+#: tformtexthash.savedialog1.title
+msgctxt "tformtexthash.savedialog1.title"
+msgid "Save File"
+msgstr ""
+
+#: tformtranscode.btnselectdirectory.caption
+msgctxt "TFORMTRANSCODE.BTNSELECTDIRECTORY.CAPTION"
+msgid "..."
+msgstr ""
+
+#: tformtranscode.btnselectfile.caption
+msgctxt "TFORMTRANSCODE.BTNSELECTFILE.CAPTION"
+msgid "Select File"
+msgstr ""
+
+#: tformtranscode.cboverwrite.caption
+msgctxt "TFORMTRANSCODE.CBOVERWRITE.CAPTION"
+msgid "Overwrite existing files"
+msgstr ""
+
+#: tformtranscode.cbusesourcedirectory.caption
+msgctxt "TFORMTRANSCODE.CBUSESOURCEDIRECTORY.CAPTION"
+msgid "Use source directory"
+msgstr ""
+
+#: tformtranscode.labelfromencoding.caption
+msgid "From Encoding: "
+msgstr ""
+
+#: tformtranscode.labellineending.caption
+msgid "Line Ending: "
+msgstr ""
+
+#: tformtranscode.labellog.caption
+msgid "Log: "
+msgstr ""
+
+#: tformtranscode.labeloutputdirectory.caption
+msgctxt "TFORMTRANSCODE.LABELOUTPUTDIRECTORY.CAPTION"
+msgid "Output directory: "
+msgstr ""
+
+#: tformtranscode.labelprogress.caption
+msgctxt "TFORMTRANSCODE.LABELPROGRESS.CAPTION"
+msgid "Stand by ready"
+msgstr ""
+
+#: tformtranscode.labeltoencoding.caption
+msgid "To Encoding: "
+msgstr ""
+
+#: tformtranscode.opendialog1.title
+msgctxt "TFORMTRANSCODE.OPENDIALOG1.TITLE"
+msgid "Select File"
+msgstr ""
+
+#: transcode.rsansi
+msgid "ANSI"
+msgstr ""
+
+#: transcode.rsautodetect
+msgctxt "transcode.rsautodetect"
+msgid "Auto detect"
+msgstr ""
+
+#: transcode.rsconvertencoding
+msgid "Convert encoding: "
+msgstr ""
+
+#: transcode.rsconvertlineencoding
+msgid "Convert line ending: "
+msgstr ""
+
+#: transcode.rscp1250
+msgid "Central Europe - CP1250"
+msgstr ""
+
+#: transcode.rscp1251
+msgid "Cyrillic - CP1251"
+msgstr ""
+
+#: transcode.rscp1252
+msgid "Western Europe - CP1252"
+msgstr ""
+
+#: transcode.rscp1253
+msgid "Greek - CP1253"
+msgstr ""
+
+#: transcode.rscp1254
+msgid "Turkish - CP1254"
+msgstr ""
+
+#: transcode.rscp1255
+msgid "Hebrew - CP1255"
+msgstr ""
+
+#: transcode.rscp1256
+msgid "Arabic - CP1256"
+msgstr ""
+
+#: transcode.rscp1257
+msgid "Baltic - CP1257"
+msgstr ""
+
+#: transcode.rscp1258
+msgid "Vietnamese - CP1258"
+msgstr ""
+
+#: transcode.rscp437
+msgid "IBM PC - CP437"
+msgstr ""
+
+#: transcode.rscp850
+msgid "Latin-1 - CP850"
+msgstr ""
+
+#: transcode.rscp852
+msgid "Latin-2 - CP852"
+msgstr ""
+
+#: transcode.rscp866
+msgid "Belarusian, Russian, Ukrainian - CP866"
+msgstr ""
+
+#: transcode.rscp874
+msgid "Thai - CP874"
+msgstr ""
+
+#: transcode.rscp932
+msgid "Japanese(Shift-JIS) - CP932"
+msgstr ""
+
+#: transcode.rscp936
+msgid "Chinese simplified(GBK) - CP936"
+msgstr ""
+
+#: transcode.rscp949
+msgid "Korean(EUC-KR) - CP949"
+msgstr ""
+
+#: transcode.rscp950
+msgid "Chinese traditional(Big5) - CP950"
+msgstr ""
+
+#: transcode.rscpiso1
+msgid "Latin-1 - ISO88591"
+msgstr ""
+
+#: transcode.rscpiso15
+msgid "Latin-9 - ISO885915"
+msgstr ""
+
+#: transcode.rscpiso2
+msgid "Latin-2 - ISO88592"
+msgstr ""
+
+#: transcode.rscpkoi8
+msgid "Cyrillic - KOI8"
+msgstr ""
+
+#: transcode.rscpmac
+msgid "MACINTOSH"
+msgstr ""
+
+#: transcode.rscr
+msgid "CR (Macintosh)"
+msgstr ""
+
+#: transcode.rscrlf
+msgid "CRLF (Windows)"
+msgstr ""
+
+#: transcode.rsdone
+msgctxt "transcode.rsdone"
+msgid "Done."
+msgstr ""
+
+#: transcode.rserror
+msgctxt "transcode.rserror"
+msgid "Error"
+msgstr ""
+
+#: transcode.rserrorwhilereadfromfiles
+msgctxt "transcode.rserrorwhilereadfromfiles"
+msgid "Error while read from file \"%s\""
+msgstr ""
+
+#: transcode.rserrorwhilewritetofiles
+msgctxt "transcode.rserrorwhilewritetofiles"
+msgid "Error while write to file \"%s\""
+msgstr ""
+
+#: transcode.rsfile
+msgctxt "transcode.rsfile"
+msgid "File: "
+msgstr ""
+
+#: transcode.rsfileexits
+msgid "file exits: "
+msgstr ""
+
+#: transcode.rsfileisempty
+msgid "File is empty"
+msgstr ""
+
+#: transcode.rsfilename
+msgid "Filename: "
+msgstr ""
+
+#: transcode.rsguessencoding
+msgid "Guess encoding: "
+msgstr ""
+
+#: transcode.rslf
+msgid "LF (Linux)"
+msgstr ""
+
+#: transcode.rslineending
+msgid "Line ending: "
+msgstr ""
+
+#: transcode.rsnoconvert
+msgid ", no convert"
+msgstr ""
+
+#: transcode.rsnotchange
+msgid "Not change"
+msgstr ""
+
+#: transcode.rsonlydetect
+msgid "Only detect"
+msgstr ""
+
+#: transcode.rsonlyoneline
+msgid "Only one line"
+msgstr ""
+
+#: transcode.rsoutputdirectorycanotwrite
+msgid "Output directory can't write: "
+msgstr ""
+
+#: transcode.rsprogress
+msgid "Progress"
+msgstr ""
+
+#: transcode.rssavetofile
+msgid "Save to file: "
+msgstr ""
+
+#: transcode.rssearchingfiles
+msgctxt "transcode.rssearchingfiles"
+msgid "Searching files..."
+msgstr ""
+
+#: transcode.rsselectordragtotranscode
+msgid ""
+"Select or drag files here to transcode\n"
+"\n"
+msgstr ""
+
+#: transcode.rstimeelapsed
+msgctxt "transcode.rstimeelapsed"
+msgid "Time elapsed: "
+msgstr ""
+
+#: transcode.rsucs2be
+msgid "UCS2BE"
+msgstr ""
+
+#: transcode.rsucs2le
+msgid "UCS2LE"
+msgstr ""
+
+#: transcode.rsunabletocreatefiles
+msgctxt "transcode.rsunabletocreatefiles"
+msgid "Unable to create file \"%s\""
+msgstr ""
+
+#: transcode.rsunabletoopenfiles
+msgctxt "transcode.rsunabletoopenfiles"
+msgid "Unable to open file \"%s\""
+msgstr ""
+
+#: transcode.rsutf8
+msgctxt "transcode.rsutf8"
+msgid "UTF8"
+msgstr ""
+
+#: transcode.rsutf8bom
+msgid "UTF8BOM"
+msgstr ""
+
+#: unit1.rsabout
+msgid "About"
+msgstr ""
+
+#: unit1.rsanalyse
+msgid "Analyse"
+msgstr ""
+
+#: unit1.rsfilehash
+msgid "File Hash"
+msgstr ""
+
+#: unit1.rsfilemerge
+msgid "File Merge"
+msgstr ""
+
+#: unit1.rsfilesplit
+msgid "File Split"
+msgstr ""
+
+#: unit1.rsscanner
+msgid "Scanner"
+msgstr ""
+
+#: unit1.rstexthash
+msgid "Text Hash"
+msgstr ""
+
+#: unit1.rstranscode
+msgid "Transcode"
+msgstr ""
+
+#: utility.rserrorwhilereadfromfiles
+msgctxt "utility.rserrorwhilereadfromfiles"
+msgid "Error while read from file \"%s\""
+msgstr ""
+
+#: utility.rserrorwhilewritetofiles
+msgctxt "utility.rserrorwhilewritetofiles"
+msgid "Error while write to file \"%s\""
+msgstr ""
+
+#: utility.rsunabletocreatefiles
+msgctxt "utility.rsunabletocreatefiles"
+msgid "Unable to create file \"%s\""
+msgstr ""
+
+#: utility.rsunabletoopenfiles
+msgctxt "utility.rsunabletoopenfiles"
+msgid "Unable to open file \"%s\""
+msgstr ""
+

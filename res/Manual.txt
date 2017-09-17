@@ -1,0 +1,220 @@
+drdrHash
+version 1.11
+
+A GUI/Console program to hash text or file, and more.
+
+
+Manual
+
+1. Install & Uninstall
+  drdrHash is fully portable, No register or system file change, all configuration saved in program's folder.
+  Decompression the file to anywhere for install.
+  Simply delete them for uninstall.
+  If you want to reset configuration, first close the program, then delete "configuration.xml", then open the program.
+
+2. Modules
+  This program has several independent modules for different purpose.
+
+  2.1 Text Hash
+    Type or load some text to hash.
+
+  2.2 File Hash
+    Select some files to hash.
+    If you open some files with this program, it will automatically use this module to processing.
+
+  2.3 File Split
+    Split one file to many part. You can also generate a merge script, or merge them with File Merge module.
+    By size: Every part will split to the same size. Except the original file size cannot divide exactly, then the last part will be smaller.
+    By parts: Same as By size, but the size is calculate form parts
+    By separator: The original file will be split to parts, at the positions between every two separator.
+    By rows: Every part will split to the same lines. Except the original file lines cannot divide exactly, then the last part will has less lines.
+    By characters: Counting characters, split at next line of the specified character number position. Only support UTF-8 encoding.
+
+  2.4 File Merge
+    Merge some file to a big one, be careful with the order.
+
+  2.5 Transcode
+    Convert the file encoding and line ending.
+    The auto detect is not 100% accuracy, so don't rely on it.
+
+  2.6 Analyse
+    This module can count how many lines in the files.
+
+  2.7 Scanner
+    Find specific files in directory.
+    You can use Lua language to write scripts to customize the scan rules. A malicious script may damage the computer. Only obtain third-party scripts from trusted source.
+
+3. Shortcut Keys
+  Quit             Ctrl+Q    or    Esc
+  Switch module    Ctrl+Tab
+
+4. Command Line Usage
+  TextHash example:
+    drdrHash TextHash CRC32 "some text"
+    drdrHash TextHash MD5 "some text"
+    drdrHash TextHash SHA1 "some text"
+    drdrHash TextHash SHA256 "some text"
+    drdrHash TextHash SHA512 "some text"
+  FileHash example:
+    drdrHash FileHash CRC32 file.txt
+    drdrHash FileHash MD5 file.txt
+    drdrHash FileHash SHA1 file.txt
+    drdrHash FileHash SHA256 file.txt
+    drdrHash FileHash SHA512 file.txt
+
+5. Script Reference
+  3.1 Lua Programming Language
+    Script function is powered by LuaJIT, which is fully upwards-compatible with Lua 5.1. It supports all standard Lua library functions.
+
+    For programming basics please read Lua Reference Manual (https://www.lua.org/manual/5.1/index.html).
+
+    LuaJIT extends the standard Lua VM with new functionality and adds several extension modules. (https://luajit.org/extensions.html)
+      Bitwise operations (https://bitop.luajit.org/api.html)
+        All bitwise operations as defined by Lua BitOp:
+        bit.tobit  bit.tohex  bit.bnot    bit.band bit.bor  bit.bxor
+        bit.lshift bit.rshift bit.arshift bit.rol  bit.ror  bit.bswap
+      FFI library (https://luajit.org/ext_ffi.html)
+        The FFI library allows calling external C functions and the use of C data structures from pure Lua code.
+      JIT compiler control (https://luajit.org/ext_jit.html)
+        The functions in this module control the behavior of the JIT compiler engine.
+      Extensions from Lua 5.2
+        Some language and library extensions from Lua 5.2.
+
+    Several modules provide by this program, which are full UTF-8 compatible. The following passage described them.
+
+  3.2 File System Module
+    File open modes
+      fs.fmOpenRead       = 0x0000
+        Open file in read-only mode
+      fs.fmOpenWrite      = 0x0001
+        Open file in write-only mode
+      fs.fmOpenReadWrite  = 0x0002
+        Open file in read/write mode.
+
+    Share modes
+      fs.fmShareCompat    = 0x0000
+        Open file in DOS share-compatibility mode
+      fs.fmShareExclusive = 0x0010
+        Lock file for exclusive use
+      fs.fmShareDenyWrite = 0x0020
+        Lock file so other processes can only read.
+      fs.fmShareDenyRead  = 0x0030
+        Lock file so other processes cannot read.
+      fs.fmShareDenyNone  = 0x0040
+        Do not lock file.
+
+    File seek origins
+      fs.fsFromBeginning = 0
+        Offset is relative to the first byte of the file. This position is zero-based. i.e. the first byte is at offset 0.
+      fs.fsFromCurrent   = 1
+        Offset is relative to the current position.
+      fs.fsFromEnd       = 2
+        Offset is relative to the end of the file. This means that Offset can only be zero or negative in this case.
+
+    File errors
+      fs.feInvalidHandle = -1
+
+    fs.FileOpen(FileName, Mode)
+      FileOpen opens a file with name FileName with mode Mode and returns a file handle which can be used to read or write (depending on the Mode parameter) from the file with the FileRead and FileWrite functions.
+      Mode can be one of the File open modes constants. Under Windows and Unix, the mode can be or-ed with one of the Share modes sharing/locking flags.
+      Remark that you cannot open a file if it doesn't exist yet, i.e. it will not be created for you. If you want to create a new file, or overwrite an old one, use the FileCreate function.
+      On Error, feInvalidHandle is returned.
+
+    fs.FileCreate(FileName, Mode)
+      FileCreate creates a new file with name FileName on the disk and returns a file handle which can be used to read or write (depending on the Mode parameter) from the file with the FileRead and FileWrite functions.
+      If a file with name FileName already existed on the disk, it will be overwritten.
+      On Error, feInvalidHandle is returned.
+
+    fs.FileSeek(Handle, Offset, Origin)
+      FileSeek sets the file pointer on position Offset, starting from Origin. Origin can be one of the File seek origins.
+      If successfull, the function returns the new file position, relative to the beginning of the file.
+      On error, -1 is returned.
+
+    fs.FileRead(Handle, Count)
+      FileRead reads Count bytes from file handle Handle. Prior to this call, the file must have been opened for reading.
+      The function returns the read data and number of bytes actually read, or -1 on error.
+
+    fs.FileWrite(Handle, Buffer)
+      FileWrite writes Buffer to the file handle Handle. Prior to this call, the file must have been opened for writing.
+      The function returns the number of bytes written, or -1 in case of an error.
+
+    fs.FileClose(Handle)
+      FileClose closes the file handle Handle. After this call, attempting to read or write from the handle will result in an error.
+
+    fs.FileExists(FileName)
+      FileExists returns True if a file with name FileName exists on the disk, False otherwise. On windows, this function will return False if a directory is passed as FileName. On unices, passing a directory name will result in True. The rationale is that on unix, a directory is a file as well.
+
+    fs.DirectoryExists(Directory)
+      DirectoryExists checks whether Directory exists in the filesystem and is actually a directory. If this is the case, the function returns True, otherwise False is returned.
+
+    fs.FileGetTime(FileName)
+      FileGetTime returns the last modification time in Unix epoch format of file FileName.
+      FileGetTime cannot be used on directories, it will return -1 if FileName indicates a directory.
+      On error, nil is returned.
+
+    fs.FileSetTime(FileName, Age)
+      FileSetTime sets the file date of file FileName to Age, where Age is a Unix epoch time stamp value.
+      The function returns True if successfull.
+
+    fs.DeleteFile(FileName)
+      DeleteFile deletes file FileName from disk. The function returns True if the file was successfully removed, False otherwise.
+
+    fs.RenameFile(OldName, NewName)
+      RenameFile renames a file from OldName to NewName. The function returns True if successful, False otherwise. For safety, the new name must be a full path specification, including the directory, otherwise it will be assumed to be a filename relative to the current working directory. Remark: The implementation of RenameFile relies on the underlying OS's support for renaming/moving a file. Whether or not a file can be renamed across disks or partitions depends entirely on the OS. On unix-like OS-es, the rename function will fail when used across partitions. On Windows, it will work.
+
+    fs.GetCurrentDir()
+      GetCurrentDir returns the current working directory.
+
+    fs.SetCurrentDir(NewDir)
+      SetCurrentDir sets the current working directory of your program to NewDir. It returns True if the function was successfull, False otherwise.
+
+    fs.CreateDir(NewDir)
+      CreateDir creates a new directory with name NewDir. If the directory doesn't contain an absolute path, then the directory is created below the current working directory.
+      The function returns True if the directory was successfully created, False otherwise.
+
+    fs.RemoveDir(Dir)
+      RemoveDir removes directory Dir from the disk. If the directory is not absolue, it is appended to the current working directory.
+
+  3.3 User Interface Module
+    ui.Language = (String)
+      Stores the current language.
+
+    ui.Log(...)
+      Sent strings to logger.
+
+    ui.ShowMessage(Msg)
+      The simplest message dialog: takes a simple string as parameter, displays it in a stereotyped box, and waits for a mouse-click or enter-key event before returning to the calling routine or program.
+      This is a modal procedure call, that is the box is displayed, receives focus, and does not relinquish focus until the OK box is clicked or otherwise selected.
+
+    ui.InputQuery(Caption, Prompt, Value)
+      Text input Dialogs: display a box with defined title and prompt, and expects user input in a text box. A default string can optionally be displayed in the text box. The user-entered or default string is returned as the function result.
+
+6. Licence
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ You may not redistribute, decompile, reverse engineer, disassemble, modify, or create derivative works of the software or any part thereof without specific prior written permission from the author.
+
+7. Used libraries
+  LCL
+  Copyright © 1993-2017 Lazarus and Free Pascal Team
+  https://www.lazarus-ide.org/
+  licensed under LGPL with linking exception
+
+  DCPcrypt
+  Copyright © 1999-2003 David Barton
+  http://www.cityinthesky.co.uk/
+  Licensed under MIT license
+
+  SynEdit
+  Portions created by Martin Waldenburg are Copyright © 1998 Martin Waldenburg.
+  licensed under MPL
+
+  LuaJIT
+  Copyright © 2005-2017 Mike Pall. All rights reserved.
+  https://luajit.org/
+  Licensed under MIT license
+
+  ATTabs
+  Copyright © Alexey Torgashin (UVViewSoft)
+  https://github.com/Alexey-T/ATTabs
+  Licensed under MPL 2.0 or LGPL
