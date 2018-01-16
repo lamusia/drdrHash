@@ -39,6 +39,7 @@ msgid "Searching files..."
 msgstr ""
 
 #: analyse.rssize
+msgctxt "analyse.rssize"
 msgid "size"
 msgstr ""
 
@@ -101,9 +102,18 @@ msgctxt "filehash.rstimeelapsed"
 msgid "Time elapsed: "
 msgstr ""
 
+#: filemerge.rscomma
+msgctxt "filemerge.rscomma"
+msgid ", "
+msgstr ""
+
 #: filemerge.rsdone
-msgctxt "filemerge.rsdone"
 msgid "Done"
+msgstr ""
+
+#: filemerge.rserror
+msgctxt "filemerge.rserror"
+msgid "Error"
 msgstr ""
 
 #: filemerge.rserrorwhilewritetofiles
@@ -114,6 +124,11 @@ msgstr ""
 #: filemerge.rsfilealreadlyexists
 msgctxt "filemerge.rsfilealreadlyexists"
 msgid "File alreadly exists"
+msgstr ""
+
+#: filemerge.rsfilename
+msgctxt "filemerge.rsfilename"
+msgid "filename"
 msgstr ""
 
 #: filemerge.rsfilenamenotvalid
@@ -132,6 +147,11 @@ msgstr ""
 #: filemerge.rsprogress
 msgctxt "filemerge.rsprogress"
 msgid "Progress: "
+msgstr ""
+
+#: filemerge.rssize
+msgctxt "filemerge.rssize"
+msgid "size"
 msgstr ""
 
 #: filemerge.rsunabletocreatefiles
@@ -155,6 +175,7 @@ msgid ": "
 msgstr ""
 
 #: filesplit.rscomma
+msgctxt "filesplit.rscomma"
 msgid ", "
 msgstr ""
 
@@ -365,27 +386,28 @@ msgid ""
 msgstr ""
 
 #: tformanalyse.btnclear.caption
-msgctxt "TFORMANALYSE.BTNCLEAR.CAPTION"
+msgctxt "tformanalyse.btnclear.caption"
 msgid "Clear"
 msgstr ""
 
 #: tformanalyse.btncopylist.caption
-msgctxt "TFORMANALYSE.BTNCOPYLIST.CAPTION"
+msgctxt "tformanalyse.btncopylist.caption"
 msgid "Copy list"
 msgstr ""
 
 #: tformanalyse.btnsavelist.caption
-msgctxt "TFORMANALYSE.BTNSAVELIST.CAPTION"
+msgctxt "tformanalyse.btnsavelist.caption"
 msgid "Save list"
 msgstr ""
 
-#: tformanalyse.btnselect.caption
-msgctxt "TFORMANALYSE.BTNSELECT.CAPTION"
-msgid "Select File"
+#: tformanalyse.btnselectdir.caption
+msgctxt "tformanalyse.btnselectdir.caption"
+msgid "Select Directory"
 msgstr ""
 
-#: tformanalyse.btnselectdir.caption
-msgid "Select Directory"
+#: tformanalyse.btnselectfile.caption
+msgctxt "TFORMANALYSE.BTNSELECTFILE.CAPTION"
+msgid "Select File"
 msgstr ""
 
 #: tformanalyse.checkboxfilter.caption
@@ -411,7 +433,7 @@ msgid "Select File"
 msgstr ""
 
 #: tformanalyse.savedialog1.title
-msgctxt "TFORMANALYSE.SAVEDIALOG1.TITLE"
+msgctxt "tformanalyse.savedialog1.title"
 msgid "Save File"
 msgstr ""
 
@@ -420,17 +442,17 @@ msgid "Clear Hash"
 msgstr ""
 
 #: tformfilehash.btncopy.caption
-msgctxt "TFORMFILEHASH.BTNCOPY.CAPTION"
+msgctxt "tformfilehash.btncopy.caption"
 msgid "Copy Hash"
 msgstr ""
 
 #: tformfilehash.btnsave.caption
-msgctxt "TFORMFILEHASH.BTNSAVE.CAPTION"
+msgctxt "tformfilehash.btnsave.caption"
 msgid "Save Hash"
 msgstr ""
 
 #: tformfilehash.btnselectfile.caption
-msgctxt "tformfilehash.btnselectfile.caption"
+msgctxt "TFORMFILEHASH.BTNSELECTFILE.CAPTION"
 msgid "Select File"
 msgstr ""
 
@@ -439,17 +461,17 @@ msgid "Table mode"
 msgstr ""
 
 #: tformfilehash.checkgroup1.caption
-msgctxt "TFORMFILEHASH.CHECKGROUP1.CAPTION"
+msgctxt "tformfilehash.checkgroup1.caption"
 msgid "Algorithm"
 msgstr ""
 
 #: tformfilehash.labelprogress.caption
-msgctxt "tformfilehash.labelprogress.caption"
+msgctxt "TFORMFILEHASH.LABELPROGRESS.CAPTION"
 msgid "Stand by ready"
 msgstr ""
 
 #: tformfilehash.menuitemclear.caption
-msgctxt "tformfilehash.menuitemclear.caption"
+msgctxt "TFORMFILEHASH.MENUITEMCLEAR.CAPTION"
 msgid "Clear"
 msgstr ""
 
@@ -504,7 +526,7 @@ msgid "Save File"
 msgstr ""
 
 #: tformfilemerge.btnselectdirectory.caption
-msgctxt "TFORMFILEMERGE.BTNSELECTDIRECTORY.CAPTION"
+msgctxt "tformfilemerge.btnselectdirectory.caption"
 msgid "..."
 msgstr ""
 
@@ -531,21 +553,17 @@ msgstr ""
 msgid "Merge"
 msgstr ""
 
-#: tformfilemerge.buttonsort.caption
-msgid "Sort"
-msgstr ""
-
 #: tformfilemerge.buttonup.caption
 msgid "Up"
 msgstr ""
 
 #: tformfilemerge.cboverwrite.caption
-msgctxt "TFORMFILEMERGE.CBOVERWRITE.CAPTION"
+msgctxt "tformfilemerge.cboverwrite.caption"
 msgid "Overwrite existing files"
 msgstr ""
 
 #: tformfilemerge.cbusesourcedirectory.caption
-msgctxt "TFORMFILEMERGE.CBUSESOURCEDIRECTORY.CAPTION"
+msgctxt "tformfilemerge.cbusesourcedirectory.caption"
 msgid "Use source directory"
 msgstr ""
 
@@ -554,7 +572,7 @@ msgid "Output filename: "
 msgstr ""
 
 #: tformfilemerge.label2.caption
-msgctxt "TFORMFILEMERGE.LABEL2.CAPTION"
+msgctxt "tformfilemerge.label2.caption"
 msgid "Output directory: "
 msgstr ""
 
@@ -578,7 +596,7 @@ msgid "..."
 msgstr ""
 
 #: tformfilesplit.btnselectfile.caption
-msgctxt "tformfilesplit.btnselectfile.caption"
+msgctxt "TFORMFILESPLIT.BTNSELECTFILE.CAPTION"
 msgid "..."
 msgstr ""
 
@@ -599,12 +617,12 @@ msgid "Only keep"
 msgstr ""
 
 #: tformfilesplit.cboverwrite.caption
-msgctxt "tformfilesplit.cboverwrite.caption"
+msgctxt "TFORMFILESPLIT.CBOVERWRITE.CAPTION"
 msgid "Overwrite existing files"
 msgstr ""
 
 #: tformfilesplit.cbusesourcedirectory.caption
-msgctxt "tformfilesplit.cbusesourcedirectory.caption"
+msgctxt "TFORMFILESPLIT.CBUSESOURCEDIRECTORY.CAPTION"
 msgid "Use source directory"
 msgstr ""
 
@@ -647,7 +665,7 @@ msgid "Before: "
 msgstr ""
 
 #: tformfilesplit.labelbytes.caption
-msgctxt "tformfilesplit.labelbytes.caption"
+msgctxt "TFORMFILESPLIT.LABELBYTES.CAPTION"
 msgid "Bytes"
 msgstr ""
 
@@ -660,7 +678,7 @@ msgid "Others: "
 msgstr ""
 
 #: tformfilesplit.labeloutputdirectory.caption
-msgctxt "tformfilesplit.labeloutputdirectory.caption"
+msgctxt "TFORMFILESPLIT.LABELOUTPUTDIRECTORY.CAPTION"
 msgid "Output directory: "
 msgstr ""
 
@@ -694,7 +712,7 @@ msgid "Splite method: "
 msgstr ""
 
 #: tformfilesplit.opendialog1.title
-msgctxt "TFORMFILESPLIT.OPENDIALOG1.TITLE"
+msgctxt "tformfilesplit.opendialog1.title"
 msgid "Load File"
 msgstr ""
 
@@ -719,7 +737,7 @@ msgid "By size"
 msgstr ""
 
 #: tformmain.labelstatus.caption
-msgid "Copyright © 2010-2017 Lamusia Project"
+msgid "Copyright © 2010-2018 Lamusia Project"
 msgstr ""
 
 #: tformmain.labeltitle.caption
@@ -731,7 +749,7 @@ msgid "Website: "
 msgstr ""
 
 #: tformmain.labelwebsiteurl.caption
-msgid "https://github.com/lamusia/drdrHash"
+msgid "https://lamusia.github.io/#drdrHash"
 msgstr ""
 
 #: tformscanner.btneditrule.caption
@@ -807,7 +825,6 @@ msgid "Sel none"
 msgstr ""
 
 #: tformscanner.labeldirectory.caption
-msgctxt "tformscanner.labeldirectory.caption"
 msgid "Directory: "
 msgstr ""
 
@@ -834,7 +851,7 @@ msgid "Clear Text"
 msgstr ""
 
 #: tformtexthash.btncopyhash.caption
-msgctxt "tformtexthash.btncopyhash.caption"
+msgctxt "TFORMTEXTHASH.BTNCOPYHASH.CAPTION"
 msgid "Copy Hash"
 msgstr ""
 
@@ -843,7 +860,7 @@ msgid "Load Text"
 msgstr ""
 
 #: tformtexthash.btnsavehash.caption
-msgctxt "tformtexthash.btnsavehash.caption"
+msgctxt "TFORMTEXTHASH.BTNSAVEHASH.CAPTION"
 msgid "Save Hash"
 msgstr ""
 
@@ -852,23 +869,28 @@ msgid "Save Text"
 msgstr ""
 
 #: tformtexthash.checkgroup1.caption
-msgctxt "tformtexthash.checkgroup1.caption"
+msgctxt "TFORMTEXTHASH.CHECKGROUP1.CAPTION"
 msgid "Algorithm"
 msgstr ""
 
 #: tformtexthash.opendialog1.title
-msgctxt "tformtexthash.opendialog1.title"
+msgctxt "TFORMTEXTHASH.OPENDIALOG1.TITLE"
 msgid "Load File"
 msgstr ""
 
 #: tformtexthash.savedialog1.title
-msgctxt "tformtexthash.savedialog1.title"
+msgctxt "TFORMTEXTHASH.SAVEDIALOG1.TITLE"
 msgid "Save File"
 msgstr ""
 
-#: tformtranscode.btnselectdirectory.caption
-msgctxt "TFORMTRANSCODE.BTNSELECTDIRECTORY.CAPTION"
+#: tformtranscode.btndestdir.caption
+msgctxt "TFORMTRANSCODE.BTNDESTDIR.CAPTION"
 msgid "..."
+msgstr ""
+
+#: tformtranscode.btnselectdir.caption
+msgctxt "TFORMTRANSCODE.BTNSELECTDIR.CAPTION"
+msgid "Select Directory"
 msgstr ""
 
 #: tformtranscode.btnselectfile.caption
@@ -922,16 +944,7 @@ msgid "ANSI"
 msgstr ""
 
 #: transcode.rsautodetect
-msgctxt "transcode.rsautodetect"
 msgid "Auto detect"
-msgstr ""
-
-#: transcode.rsconvertencoding
-msgid "Convert encoding: "
-msgstr ""
-
-#: transcode.rsconvertlineencoding
-msgid "Convert line ending: "
 msgstr ""
 
 #: transcode.rscp1250
@@ -1039,6 +1052,10 @@ msgctxt "transcode.rsdone"
 msgid "Done."
 msgstr ""
 
+#: transcode.rsencoding
+msgid "Encoding: "
+msgstr ""
+
 #: transcode.rserror
 msgctxt "transcode.rserror"
 msgid "Error"
@@ -1069,10 +1086,6 @@ msgstr ""
 
 #: transcode.rsfilename
 msgid "Filename: "
-msgstr ""
-
-#: transcode.rsguessencoding
-msgid "Guess encoding: "
 msgstr ""
 
 #: transcode.rslf
@@ -1146,7 +1159,6 @@ msgid "Unable to open file \"%s\""
 msgstr ""
 
 #: transcode.rsutf8
-msgctxt "transcode.rsutf8"
 msgid "UTF8"
 msgstr ""
 
@@ -1160,6 +1172,23 @@ msgstr ""
 
 #: unit1.rsanalyse
 msgid "Analyse"
+msgstr ""
+
+#: unit1.rsconfigurationcannotbesaved
+msgid "Configuration can not be saved."
+msgstr ""
+
+#: unit1.rscopytheconfigurationtoclipboard
+msgid "Copy the configuration to clipboard"
+msgstr ""
+
+#: unit1.rserror
+msgctxt "unit1.rserror"
+msgid "Error"
+msgstr ""
+
+#: unit1.rsexit
+msgid "Exit"
 msgstr ""
 
 #: unit1.rsfilehash

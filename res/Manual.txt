@@ -1,5 +1,5 @@
 drdrHash
-version 1.11
+version 1.12
 
 A GUI/Console program to hash text or file, and more.
 
@@ -192,7 +192,7 @@ Manual
 6. Licence
   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
- You may not redistribute, decompile, reverse engineer, disassemble, modify, or create derivative works of the software or any part thereof without specific prior written permission from the author.
+  You may not redistribute, lease, decompile, reverse engineer, disassemble, decrypt, extract, modify, or create derivative works of the software or any part thereof without specific prior written permission from the author.
 
 7. Used libraries
   LCL

@@ -1,12 +1,18 @@
 # drdrHash
 
+[https://lamusia.github.io/#drdrHash](https://lamusia.github.io/#drdrHash)
+
 A GUI/Console program to hash text or file, and more.
 
 ## Downloads
 
-[drdrHash 1.11 win32.7z](https://raw.githubusercontent.com/lamusia/drdrHash/master/release/drdrHash%201.11%20win32.7z)
+Windows XP and later x86 [drdrHash 1.12 win32.7z](https://raw.githubusercontent.com/lamusia/drdrHash/master/release/drdrHash%201.12%20win32.7z)
 
-[Other](https://github.com/lamusia/drdrHash/tree/master/release)
+Windows XP and later x64 [drdrHash 1.12 win64.7z](https://raw.githubusercontent.com/lamusia/drdrHash/master/release/drdrHash%201.12%20win64.7z)
+
+Extract to any writable folder and run the application. [(?)](https://lamusia.github.io/#Extract%20Archive%20File)
+
+[Other versions](https://github.com/lamusia/drdrHash/tree/master/release)
 
 ## Screenshots
 
